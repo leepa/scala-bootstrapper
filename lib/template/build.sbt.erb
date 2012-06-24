@@ -23,8 +23,8 @@ libraryDependencies ++= Seq(
   "org.specs2" %% "specs2" % "1.9" % "test"
 )
 
-mainClass in (Compile, run) := Some("com.gmgfarm.birdname.Main")
+mainClass in (Compile, run) := Some("io.leepa.birdname.Main")
 
-mainClass in (Compile, packageBin) := Some("com.gmgfarm.birdname.Main")
+mainClass in (Compile, packageBin) := Some("io.leepa.birdname.Main")
 
 CompileThriftScrooge.scroogeVersion := "2.5.4"
